@@ -646,59 +646,10 @@
   <!-- /.section blog -->
 
 
+
   <?php include_once('footer.php')?>
 
-  <div class="modal">
-    <div class="modal-dialog">
-      <h2 class="modal-title">Есть вопросы?</h2>
-      <a class="modal-close" data-toggle="modal" href="#">
-        <svg class="modal-close-icon" width="24" height="24">
-          <use href="img/sprite.svg#close"></use>
-        </svg>
-      </a>
-      <p class="modal-text">
-        Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в
-        самых сложных случаях!
-      </p>
 
-      <form class="modal-form" method="POST" action="handler.php">
-
-        <div class="input-group-wrapper input-group-vertical">
-          <div class="input-group modal-input-group">
-            <input class="input modal-input" id="modal-user-name" type="text" name="username" placeholder=" " maxlength="100" required>
-            <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
-          </div>
-          <!-- /.input-group -->
-        
-          <div class="input-group modal-input-group">
-            <input class="input modal-input" id="modal-user-phone" type="tel" name="userphone" placeholder=" " maxlength="30" required>
-            <label class="input-group-label modal-input-label" for="modal-user-phone">+_ (___) __-__-___</label>
-          </div>
-          <!-- /.input-group -->
-        </div>
-        <!-- /.input-group-wrapper -->
-        
-        <div class="modal-form-footer">
-          <button class="button modal-form-button" type="submit">Отправить заявку</button>
-          <div class="cta-notification">
-            <svg class="cta-notification-icon" width="14" height="14">
-              <use href="img/sprite.svg#shield"></use>
-            </svg>
-            <p class="cta-notification-text">
-              Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!
-            </p>
-          </div>
-        </div>
-        <!-- /.modal-form-footer -->
-
-      </form>
-      <!-- /.modal-form -->
-
-    </div>
-  </div>
-  <!-- /.modal -->
-
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
+  
 </body>
 </html>
